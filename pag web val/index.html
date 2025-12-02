@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardianes de la Selva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container first-screen">
+        <div class="content-wrapper">
+            <div class="header-section">
+                <h1 class="main-title">GUARDIANES DE LA SELVA</h1>
+                <h2 class="subtitle">TRAS LAS HUELLAS DE LA MADREMONTE</h2>
+                <p class="description">Vive una experiencia teatralizada llena de misterio y naturaleza</p>
+            </div>
+            
+            <div class="main-content-grid">
+                <div class="left-info">
+                    <div class="section">
+                        <h3 class="section-title">¿Qué incluye?</h3>
+                        <ul class="includes-list">
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                                <span>Ambientacion completa</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                </svg>
+                                <span>Narraciones</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                                <span>Actores</span>
+                            </li>
+                            <li>
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="5" width="20" height="14" rx="2" ry="2"/>
+                                    <line x1="2" y1="12" x2="22" y2="12"/>
+                                    <circle cx="12" cy="12" r="2"/>
+                                </svg>
+                                <span>Espacio final para fotos</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="section">
+                        <h3 class="section-title">Fechas disponibles</h3>
+                        <ul class="dates-list">
+                            <li>9 de marzo</li>
+                            <li>22 de marzo</li>
+                            <li>6 de abril</li>
+                            <li>20 de abril</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right-form">
+                    <div class="form-gallery-container">
+                        <form id="reservationForm" class="reservation-form">
+                            <input type="text" id="nombre" placeholder="Nombre" required>
+                            <input type="email" id="correo" placeholder="Correo" required>
+                            <input type="tel" id="telefono" placeholder="Telefono" required>
+                            <button type="submit" class="reserve-btn">Reservar</button>
+                            <p class="limited-spots">Cupos limitados</p>
+                        </form>
+                        <h2 class="gallery-title">ANÍMATE</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fondos de imagen para primera pantalla -->
+        <div class="background-image-wrapper" id="backgroundWrapper1">
+            <div class="background-overlay"></div>
+        </div>
+        <div class="background-image-wrapper" id="backgroundWrapper2">
+            <div class="background-overlay"></div>
+        </div>
+
+        <!-- Decoraciones de esquinas -->
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+        
+        <!-- Contenedor de mariposas para primera pantalla -->
+        <div class="butterflies-container" id="butterfliesContainer"></div>
+    </div>
+
+    <script src="imageLoader.js"></script>
+    <script src="extt.js"></script>
+</body>
+</html>
+
